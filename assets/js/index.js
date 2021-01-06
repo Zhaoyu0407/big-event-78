@@ -7,6 +7,7 @@ function getUserInfo() {
         //     Authorization: localStorage.getItem("token")
         // },
         success:function (res) {
+        
             // console.log(res); 
             
             if(res.status !== 0 ) {
